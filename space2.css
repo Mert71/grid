@@ -1,46 +1,110 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
-		}
-		
+						}
+
+
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			width: 1001px;
+			margin: auto;
+			padding: 10px;
+			height: 587px;
+			margin-left: 541px;
 		}
-		
+
+		 header h1{
+			text-align: center;
+			margin: 22px 15px 0px 15px;
+
+		}
+
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+			display: flex;
 		}
-		
+
 		#content {
-			
+			position: relative;
+			z-index: 1;
 		}
-		
-		nav li {
-			
-		}
-		
+
+		nav li{
+			height: 29px;
+			flex-direction: row;
+			margin-top: 15px;
+			}
+
+	nav{
+				margin-top: 17px;
+			}
+
+			ul{
+				margin: 0px 0px 22px 0px;
+				padding: 0px;
+			}
+
 		nav li a {
+			color: black;
+			text-decoration: none;
+			font-weight: bold;
+			padding-right: 9px;
+			padding-left: auto;
+			margin-left: 11px;
+			padding-bottom: 20px;
 		}
-		
+
+
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			width: 690px;
+			height: 421px;
+			position: absolute;
+			top: -4px;
+
 		}
-		
+
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			float: right;
+			width: 308px;
+			position: relative;
+			bottom: 4px;
+			height: 421px;
 		}
-		
+
+		aside article{
+			height: 70px;
+			padding-bottom: 10px;
+		}
+
 		body article {
 			background-color: rgba(200,200,200,0.6);
 		}
-		
-		header {
+
+		article{
+    	margin: 32px 10px -14px 10px;
+
 		}
-		
+
+		article p {
+		padding-bottom: 11px;
+		margin-bottom: 10px;
+
+	}
+
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			font-weight: bold;
+      position: relative;
+			top: 420px;
 		}
-	
+
+		footer p{
+			margin: 0 auto;
+			width: 50px;
+
+		}
